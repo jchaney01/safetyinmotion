@@ -1,8 +1,9 @@
 {
-  "name": "myProject",
+  "name": "Safety In Motion",
   "version": "1.0.0",
   "dependencies": {
     "backbone": "latest",
-    "greensock":"git://github.com/greensock/GreenSock-JS.git"
+    "greensock": "git://github.com/greensock/GreenSock-JS.git",
+    "isotope": "latest"
   }
 }
