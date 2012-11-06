@@ -11,6 +11,6 @@
 <!--    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';-->
 <!--    s.parentNode.insertBefore(g,s)}(document,'script'));-->
 <!--  </script>-->
-
+<script src="/js/libs/isotope/jquery.isotope.min.js"></script>
 </body>
 </html>
