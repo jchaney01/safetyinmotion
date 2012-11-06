@@ -1,0 +1,9 @@
+scheme: sftp
+host: s154668.gridserver.com
+username: user
+password: pass
+path: httpdocs
+exclude:
+    - .gitignore
+    - dandelion.yml
+revision_file: .revision

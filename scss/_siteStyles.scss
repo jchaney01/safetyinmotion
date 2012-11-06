@@ -1,0 +1,78 @@
+/* Variables
+-------------------------------------------------------------- */
+
+// Grays
+// -------------------------
+$black:                 #000;
+$grayDarker:            #222;
+$grayDark:              #333;
+$gray:                  #555;
+$grayLight:             #999;
+$grayLighter:           #eee;
+$white:                 #fff;
+
+
+// Accent colors
+// -------------------------
+$blue:                  #049cdb;
+$blueDark:              #0064cd;
+$green:                 #46a546;
+$red:                   #9d261d;
+$yellow:                #ffc40d;
+$orange:                #f89406;
+$pink:                  #c3325f;
+$purple:                #7a43b6;
+
+$main-foreground-color:$black;
+$main-background-color:$white;
+$main-rollover-color: $blue;
+
+$main-font:  sans-serif;
+
+
+
+/* apply a natural box layout model to all elements http://paulirish.com/2012/box-sizing-border-box-ftw
+-------------------------------------------------------------- */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Font Treatment
+-------------------------------------------------------------- */
+
+
+body {
+	font-family:$main-font;
+	line-height: 1.6em;
+	color: $main-foreground-color;
+}
+
+input {
+	font: .9em/1.4  Arial, sans-serif;
+}
+
+
+/* Headings
+-------------------------------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 400; /* Be specific */
+	color: $main-foreground-color;
+	margin-bottom :.3em;
+}
+
+h1 {font: 1.8em/1.1em $main-font, sans-serif;}
+h2 {font: 1.6em/1.1em $main-font, sans-serif;}
+h3 {font: 1.5em/1.1em $main-font, sans-serif;}
+h4 {font: 1.2em/1.1em $main-font,  sans-serif;}
+h5 {font: 1.1em/1.1em $main-font,  sans-serif;}
+h6 {font: 1em/1.1em $main-font,  sans-serif;}
+
+
+/* Site Structure
+-------------------------------------------------------------- */
+html,body {
+	margin:0;
+	padding:0;
+	height: 100%;
+	width:100%;
+	border:none;
+}
+

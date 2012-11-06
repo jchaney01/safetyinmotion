@@ -1,0 +1,8 @@
+{
+  "name": "myProject",
+  "version": "1.0.0",
+  "dependencies": {
+    "backbone": "latest",
+    "greensock":"git://github.com/greensock/GreenSock-JS.git"
+  }
+}
